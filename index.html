@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0xuBWdNnUVCSxbuvQx8HpIUonM75DHKGmhw&usqp=CAU" sizes="16x16" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <title>To-do List</title>
+</head>
+
+<body>
+
+  <header>
+    <ul>
+      <div class="search">
+        <input type="text" class="input" id="input" placeholder="Search by Title...">
+        <button class="btn" id="search">Search</button>
+      </div>
+    </ul>
+  </header>
+
+  <div class="warn" id="warn">Title Or Description Cannot Be Empty!</div>
+  <div class="sucess" id="sucess">Added Sucessfully!</div>
+  <div class="src" id="src">Your Todo is Present at position</div>
+
+  <div class="whole">
+    <div class="content">
+      <div class="title">Title</div>
+      <input type="text" class="txt" id="title" placeholder="Title...">
+      <div class="desc">Description</div>
+      <input type="text" class="txt" id="desc" placeholder="Description..."><br>
+      <button class="btns" id="add">Add Note</button>
+    </div>
+  </div>
+
+  <h2 style="text-align: center; padding: 10px;">Your To-do List is Here!</h2>
+  <hr>
+  <table class="table">
+    <thead>
+      <tr>
+        <!-- <th class="disp" scope="col">Check</th> -->
+        <th class="col srno" scope="col">Sr No.</th>
+        <th class="col title" scope="col">Title</th>
+        <th class="col desc" scope="col">Description</th>
+        <th class="col action" scope="col">Delete</th>
+      </tr>
+    </thead>
+    <tbody class="list" id="list">
+
+    </tbody>
+  </table>
+
+</body>
+<script src="index.js"></script>
+
+</html>

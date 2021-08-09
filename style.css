@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(10, 7, 7);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    padding: 10px;
+    margin: 1vw;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(10, 7, 7);
+    color: rgb(2, 116, 2);
+    border: 2px solid rgb(2, 116, 2);
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(2, 116, 2);
+    padding: 10.5px;
+}
+
+.btns {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(15, 13, 13);
+    color: rgb(2, 116, 2);
+}
+
+.btns:hover {
+    color: rgb(2, 116, 2);
+    border: 2px solid rgb(2, 116, 2);
+    background-color: white;
+    padding: 10.5px;
+}
+
+.warn {
+    background-color: rgb(190, 21, 21);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+
+.sucess {
+    background-color: rgb(7, 177, 7);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+
+.src {
+    background-color: rgb(12, 119, 182);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+
+#add {
+    margin: 3px;
+}
+
+.whole {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.content {
+    padding: 30px;
+}
+
+.txt {
+    width: 50vw;
+    height: 20%;
+}
+
+.desc, .title {
+    padding: 8px;
+}
+
+.table, .col {
+    /* border: 2px solid black; */
+    width: 100%;
+    padding: 4px;
+}
+
+.srno {
+    width: 10%;
+}
+
+.title {
+    width: 15%;
+}
+
+.desc {
+    width: 60%;
+}
+
+.action {
+    width: 15%;
+}
+
+.cen {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
